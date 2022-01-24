@@ -1,7 +1,6 @@
 <?php
 
-   echo '<link rel="stylesheet" href="style.css">
-
+  echo '<link rel="stylesheet" href="style.css">
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="container-fluid">
   <a class="navbar-brand" href="#">AD-forums</a>
@@ -40,8 +39,9 @@
   </div>
 </div>
 </nav>';
-include 'partials/login.php';
-include 'partials/signup.php';
+
+include 'login.php';
+include 'signup.php';
 
 
 

@@ -9,22 +9,16 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="\partialsstyle.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link href="img/icon.jpg" rel="icon">
+    <link href="partials/icon.jpg" rel="icon">
     <title>AD-fourms</title>
 </head>
 
 <body>
     <?php
-      include "connection.php";
-      include "header.php";
-
-
-
-
-      
+      require "partials/header.php";
     ?>
     <!-- navbar -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -60,32 +54,10 @@
     </div>
     <!-- navbar -->
     <div class="container my-4">
-        <h2 class="text-center my-4">AD-Discuss - Browse Categories</h2>
-        <div class="row my-4">
-            <?php 
-        $sql = "SELECT * FROM `forums`";
-        $result = mysqli_query($conn, $sql);
-        while($row = mysqli_fetch_assoc($result)){
-        echo'
-            <div class="cards col-md-4 my-2">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?'.$row['category_Id'].'coding, code" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">'.$row['category_name'].'</h5>
-                        <p class="card-text">'.substr($row['category_description'], 0, 100).'...</p>
-                        <a href="#" class="btn btn-info">View Threads</a>
-                    </div>
-                </div>
-            </div>';
-           }
-          ?>
-        </div>
     </div>
-
     <?php
-    include "footer.php";
-    
- ?>
+   require "partials/footer.php";
+    ?>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -94,7 +66,8 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
-    <script>
+
+<script>
     $(document).ready(function() {
         $("#login").modal();
     });
@@ -103,7 +76,9 @@
     $(document).ready(function() {
         $("#signup").modal();
     });
-    </script>
+</script>
+
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
