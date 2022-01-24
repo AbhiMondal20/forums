@@ -1,4 +1,5 @@
 <?php
+
    echo '<link rel="stylesheet" href="style.css">
 
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -32,13 +33,16 @@
         </ul>
         <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-success mx-2" type="submit">Search</button>
-      <button class="btn btn-outline-info mx-2" type="submit">Signup</button>
-      <button class="btn btn-outline-info" type="submit">Login</button>
+      <button class="btn btn-info mx-2" type="submit">Search</button>
+      <button class="btn btn-outline-info mx-2" type="submit" data-bs-toggle="modal" data-bs-target="#signup">Signup</button>
+      <button class="btn btn-outline-info" type="submit" data-bs-toggle="modal" data-bs-target="#login">Login</button>
     </form>
   </div>
 </div>
 </nav>';
+include 'partials/login.php';
+include 'partials/signup.php';
+
 
 
 
