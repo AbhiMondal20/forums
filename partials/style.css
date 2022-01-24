@@ -8,3 +8,11 @@ body{
     width: 33.33333333%;
     position: relative;
 }
+.cards{
+    box-shadow: 12px 8px 4px gray;
+
+}
+.cards:hover{
+    color:aqua;
+
+}

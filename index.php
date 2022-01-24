@@ -18,7 +18,13 @@
 
 <body>
     <?php
-        require "partials/header.php";
+      include "partials/connection.php";
+      require "partials/header.php";
+
+
+
+
+      
     ?>
     <!-- navbar -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -53,188 +59,28 @@
         </button>
     </div>
     <!-- navbar -->
-    <div class="container">
-        <h2 class="text-center md-4 my-4">AD-Discuss - Browse Categories</h2>
-        <div class="row">
-            <div class="cards col-md-4 my-3">
+    <div class="container my-4">
+        <h2 class="text-center my-4">AD-Discuss - Browse Categories</h2>
+        <div class="row my-4">
+            <?php 
+        $sql = "SELECT * FROM `forums`";
+        $result = mysqli_query($conn, $sql);
+        while($row = mysqli_fetch_assoc($result)){
+        echo'
+            <div class="cards col-md-4 my-2">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+                    <img src="https://source.unsplash.com/1337x752/?'.$row['category_Id'].'coding, code" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title">'.$row['category_name'].'</h5>
+                        <p class="card-text">'.substr($row['category_description'], 0, 100).'...</p>
                         <a href="#" class="btn btn-primary">View Threads</a>
                     </div>
                 </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-            <div class="cards col-md-4 my-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Threads</a>
-                    </div>
-                </div>
-            </div>
-
+            </div>';
+           }
+          ?>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
 
     <?php
    require "partials/footer.php";
