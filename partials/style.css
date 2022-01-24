@@ -1,15 +1,10 @@
 body{
-    overflow: hidden;
-    box-sizing: border-box;
+    background-color: rgb(255, 25, 25);
+    color: #7dfac8;
 }
-.navbar{
-    background: #246d52;
-    text-transform: uppercase;
-
-
-}
-.container{
-    position:absolute;
-    display: flex;
-    color:#22d694;
+.cards-cr{
+    display: inline-table;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    position: relative;
 }

@@ -7,21 +7,204 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>AD-forums</title>
+    <link rel="stylesheet" href="\partials\style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="partials\icon.jpg" rel="icon" >
+    <title>AD-fourms</title>
   </head>
   <body>
-
-    <?php
+  <?php
         require "partials/header.php";
     ?>
-    <div class="container my-4">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi fugit porro sit ducimus aspernatur repudiandae cupiditate incidunt? Saepe, magnam et facere ratione beatae quasi deserunt dicta, nulla tempora nam, provident exercitationem? Rem dolore unde ipsa? Nam, doloremque numquam itaque dolores necessitatibus corrupti reprehenderit tempora repellendus eveniet perferendis a excepturi ipsam delectus mollitia minima modi maiores nulla error voluptates cupiditate labore temporibus qui nostrum? Nihil ab laborum neque mollitia eum omnis, quaerat nemo. Tenetur nemo labore sint esse libero, dolore accusamus molestias dignissimos ipsam pariatur earum quasi expedita illum quia aspernatur iste voluptatem consequuntur. Facere labore neque totam voluptatem? Quod fuga eum sint asperiores repellendus assumenda animi, hic saepe quo magni similique error illo itaque, dignissimos consectetur labore, repellat fugit alias in. Ab earum odio corporis dolorem officiis expedita eligendi tempore saepe laudantium cum modi ullam debitis vel, labore, nemo aperiam repudiandae. Sequi eum quo sint fuga quibusdam neque voluptas ex asperiores tempora quas ea officia ipsa earum iusto nam, quasi optio. Corporis voluptatum autem et quasi, sit iusto laudantium accusantium esse, dignissimos pariatur ratione ea quam excepturi non molestias magni dolorum. Nobis nostrum cupiditate odit veniam pariatur natus quis fugiat, eos corrupti quo saepe esse officiis facilis repudiandae adipisci non fugit enim similique quidem repellendus. Sunt molestias beatae recusandae itaque, laborum nobis. Assumenda, itaque aperiam recusandae praesentium a perspiciatis ipsum expedita temporibus esse dignissimos deserunt? Assumenda voluptates illum sapiente veritatis est quo voluptate ipsam fugit corrupti vel exercitationem totam eaque, odio recusandae officiis maiores asperiores, autem libero. Dolorum non sequi impedit accusamus, dolorem unde quos fugit nobis laboriosam. Repellat, saepe quisquam perspiciatis earum dolore, natus officia illo reprehenderit necessitatibus nemo dignissimos ea odit voluptatum quos et obcaecati. Nemo fugiat voluptatum explicabo magnam hic expedita facere veniam voluptas velit? Quis quaerat eaque, dolore repellat natus obcaecati libero iste facilis impedit dolor explicabo laboriosam? Incidunt excepturi nisi explicabo laboriosam obcaecati et aliquid assumenda blanditiis facilis soluta. Labore aut quia ipsum atque perspiciatis natus quae est, sit expedita explicabo facere saepe earum architecto unde sapiente. Eaque quia in eligendi eum voluptatem exercitationem distinctio nisi ea similique fugit ducimus iure, ab perspiciatis possimus esse amet iusto modi quae harum quibusdam id, beatae corporis laudantium libero. Vero aperiam ipsa labore tempora nobis accusamus corrupti, asperiores ea repellendus. Quos, quasi ipsa. Delectus ipsam eos ullam explicabo accusantium consequatur itaque quibusdam, dignissimos non iusto amet provident at est ea a nobis odit architecto voluptatum. Necessitatibus iure reprehenderit omnis officia voluptates veniam, laboriosam doloremque atque dolore! Numquam corrupti quaerat maiores vero ex minima error! Rerum quisquam asperiores deleniti quas, minima sequi voluptatibus accusantium ab amet tenetur maxime quam impedit saepe consequatur cumque doloremque tempora vitae nostrum praesentium! Optio voluptatum totam, alias quidem sunt rerum fuga ab ipsum obcaecati aspernatur ipsam ad impedit sapiente!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos commodi soluta architecto illum ipsam fugit nemo, vero, deserunt adipisci dolor sed quas cupiditate tempora aliquid eos nisi animi assumenda officiis maxime, culpa ea? Itaque quasi error illum sint eligendi provident cum magni quas temporibus consequuntur earum officiis unde atque laborum ipsa, eveniet laudantium blanditiis ullam non repudiandae eos ea. Rerum, cumque excepturi! Odit neque dolorum, delectus provident at eveniet et iure fugit aliquid quo quibusdam mollitia quidem nam natus beatae voluptatibus veritatis itaque voluptatem odio ratione labore officiis ullam. Autem aspernatur inventore assumenda pariatur. Voluptatum corrupti obcaecati eos minima libero rem odit earum magnam sequi officiis! Perspiciatis, ducimus! Est explicabo eum ipsam, natus magnam rerum vero maxime nisi quia maiores in ullam nulla fugiat voluptatem exercitationem molestias illum ratione officiis. Laudantium voluptas deserunt animi et, dolor odit magni maxime voluptatibus vitae iure, quibusdam molestiae, dolorem asperiores suscipit numquam. Voluptas ut at dolore quidem consectetur sequi nemo, similique autem neque alias illum cum aliquam facilis itaque consequatur quod aspernatur eveniet impedit est voluptates voluptatibus et quo molestias in! Dignissimos tenetur expedita magni cupiditate amet eos minus, sit corporis fugit laborum, doloremque possimus. Possimus aliquid cumque molestiae eveniet porro necessitatibus similique corporis voluptates veritatis exercitationem hic, officiis, veniam sunt? Quam illo, iure nesciunt officia animi non natus rerum modi inventore ea ex cum odio, dolor voluptatem! Asperiores iure sed adipisci sint impedit delectus maiores provident voluptas repellendus, cumque inventore explicabo reprehenderit facilis assumenda ipsam optio ipsum minima. Nemo unde, repudiandae culpa sunt, eum, ipsum quis earum voluptatem a tempora pariatur accusantium? Autem quae esse corrupti ex porro eaque aspernatur aut quam facilis, quidem quis tempora itaque at ullam totam quod quo? Rerum adipisci ipsa veritatis dicta odit, facilis ipsam voluptates rem, quidem hic nostrum non iste odio quod blanditiis voluptatem. Vel eligendi consequuntur temporibus quibusdam. Fugit unde ad culpa! Tempora fugit sint exercitationem beatae, iusto et deleniti perspiciatis laudantium ipsum reiciendis repellendus inventore vitae ea alias unde eveniet voluptates quia at in possimus totam nulla obcaecati sunt. Nam nobis quod ratione adipisci consectetur ducimus nesciunt, eligendi aut minus eum ipsa distinctio rem commodi nostrum assumenda ut, unde officia? Asperiores rem corrupti numquam laboriosam consectetur possimus odit quae in ex temporibus corporis accusantium earum amet ipsum placeat nobis obcaecati quam architecto quod laborum repellat, doloribus exercitationem? Eveniet minima rem, omnis ipsa aspernatur iure quas pariatur. Laudantium unde culpa nisi quae qui accusantium eos, veritatis totam fuga sequi commodi dolores ex! Ipsum tempora, sunt voluptate quos soluta hic ducimus ipsam numquam harum labore cupiditate corrupti possimus ex repellendus non a reprehenderit aperiam facere facilis sapiente aliquam alias? Illo, illum facere sed obcaecati consequatur delectus quod cum ab ipsum aliquam, necessitatibus dolorem excepturi vero consequuntur beatae. Consequuntur ex saepe consectetur?</p>
+    <!-- navbar -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/750x250/?code,javascript" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/750x250/?code,c++" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/750x250/?code,mysqli" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-    <?php
-    require "partials/footer.php";
-    ?>
+<!-- navbar -->
+<div class="container">
+  <h2 class="text-center md-4 my-4">AD-Discuss - Browse Categories</h2>
+  <div class="row">
+    <div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div>
+  <div class="cards col-md-4 my-3">
+    <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+  </div>
+  <div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div>
+    <div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div><div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div><div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div><div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div><div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div><div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div><div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div><div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div><div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div><div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div><div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div><div class="cards col-md-4 my-3">
+      <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/1337x752/?code,javascript" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Threads</a>
+      </div>
+    </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+   require "partials/footer.php";
+ ?>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
